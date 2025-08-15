@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    const savedTheme = localStorage.getItem('theme');
+    const systemPrefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+    document.documentElement.classList.toggle('light-mode', savedTheme === 'light' || (!savedTheme && systemPrefersLight));
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1></h1>
+      <nav aria-label="Navegação principal">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <div class="container">
+        <h2>Sobre Mim</h2>
+        <p> Com uma trajetória marcada pela responsabilidade e organização na área logística, estou em plena transição para o universo da tecnologia como Desenvolvedor Fullstack. Movido por desafios, criatividade e sede de aprendizado, trago comigo não apenas competências técnicas, mas também a sensibilidade de quem vive a música como paixão e uma visão sensível e colaborativa de criar e resolver problemas.
+          Estou pronto para contribuir com inovação, empatia e comprometimento. Vamos construir algo com propósito e dedicação, Te apresento meu primeiro Projeto Full Front-end." </p>
+          <p>No qual quis monstrar um pouco sobre mim, oque eu aprendi e coloquei em prática neste início de jornada, junto com o auxílio da I.A para dar identidade ao projeto.</p>
+          <div class="sobre-mim-main-content">
+        <div class="instagram-post-card">
+        <div class="instagram-header">
+        <img src="caminho/para/perfil.jpeg" alt="Foto de Perfil do Daniel" class="instagram-profile-pic">
+        <span class="instagram-username">danielvieirasl</span>
+      </div>
+      <div class="instagram-photo-container">
+        <img src="caminho/para/photo3.jpg" alt="Foto principal do Daniel" class="instagram-main-photo">
+      </div>
+      <div class="instagram-actions">
+        <span class="icon">❤️</span>
+        <span class="icon">💬</span>
+        <span class="icon">✈️</span>
+      </div>
+      <div class="instagram-likes">
+        <p>Curtido por <b>você</b> e <b>outras pessoas</b></p>
+      </div>
+      <div class="instagram-caption">
+        <p><span class="instagram-username">danielvieirasl</span> Paixão pela Música 🚀</p>
+      </div>
+      <div class="instagram-comments">
+        <p class="instagram-comment">Ver todos os 2 comentários</p>
+      </div>
+      <div class="instagram-time">
+        <p>HÁ 1 DIA</p>
+      </div>
+    </div>
+
+<div class="instagram-post-card">
+        <div class="instagram-header">
+          <img src="caminho/para/perfil.jpeg" alt="Foto de Perfil do Daniel 2" class="instagram-profile-pic">
+          <span class="instagram-username">danielvieirasl</span>
+        </div>
+        <div class="instagram-photo-container">
+          <img src="caminho/para/photo2.jpg" alt="Foto principal do Daniel 2" class="instagram-main-photo">
+        </div>
+        <div class="instagram-actions">
+          <span class="icon">❤️</span>
+          <span class="icon">💬</span>
+          <span class="icon">✈️</span>
+        </div>
+        <div class="instagram-likes">
+          <p>Curtido por <b>amigo_dev</b> e <b>outras 15 pessoas</b></p>
+        </div>
+        <div class="instagram-caption">
+          <p><span class="instagram-username">danielvieirasl</span> Desafio aceito! . 🫡</p>
+        </div>
+        <div class="instagram-comments">
+          <p class="instagram-comment">Ver todos os 5 comentários</p>
+        </div>
+        <div class="instagram-time">
+          <p>HÁ 1 DIA</p>
+        </div>
+      </div>
+      <div class="instagram-post-card">
+        <div class="instagram-header">
+          <img src="caminho/para/perfil.jpeg" alt="Foto de Perfil do Daniel 3" class="instagram-profile-pic">
+          <span class="instagram-username">danielvieirasl</span>
+        </div>
+        <div class="instagram-photo-container">
+          <img src="caminho/para/photo4.png" alt="Foto principal do Daniel 3" class="instagram-main-photo">
+        </div>
+        <div class="instagram-actions">
+          <span class="icon">❤️</span>
+          <span class="icon">💬</span>
+          <span class="icon">✈️</span>
+        </div>
+        <div class="instagram-likes">
+          <p>Curtido por <b>mentor_tech</b> e <b>outras 20 pessoas</b></p>
+        </div>
+        <div class="instagram-caption">
+          <p><span class="instagram-username">danielvieirasl</span> Meu primeiro code! 🚀 #frontend</p>
+        </div>
+        <div class="instagram-comments">
+          <p class="instagram-comment">Ver todos os 7 comentários</p>
+        </div>
+        <div class="instagram-time">
+          <p>HÁ 3 DIAS</p>
+        </div>
+      </div>
+      </div>
+
+      </div>
+    </section>
+
+    <section id="projetos">
+      <div class="container">
+        <h2>Projetos</h2>
+        <div class="projetos-grid">
+          <article class="projeto">
+            <h3>Portfólio Pessoal</h3>
+            <p>Site responsivo com HTML, CSS e JavaScript. Tema escuro e toggle de modo claro.</p>
+          </article>
+          <article class="projeto">
+            <h3>EM BREVE</h3>
+            <p> </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <h2>Contato</h2>
+        <address>
+          <p>Entre em contato comigo pelo <a href="mailto:daniel.viieira.dasilva0@gmail.com">daniel.viieira.dasilva0@gmail.com</a>:</p>
+        </address>
+
+        <!-- Botões Sociais  -->
+
+        <div class="social-buttons">
+        <a href="https://www.instagram.com/danielvieirasl" 
+        target="_blank" 
+       class="social-btn instagram" aria-label="Instagram">
+        <svg class="social-icon" viewBox="0 0 448 512" height="1.5em">
+        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+        </svg>
+        <span class="social-text">Instagram</span>
+        </button>
+      </a>
+      <a href="https://www.linkedin.com/in/danielvieirasl"
+      target="_blank"
+      class="social-btn linkedin" aria-label="LinkedIn">
+            <svg class="social-icon" viewBox="0 0 448 512" height="1.5em">
+              <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+            </svg>
+            <span class="social-text">LinkedIn</span>
+          </button>
+        </a>
+        <a href="https://github.com/DanielVieiradev"
+        target="_blank"
+         class="social-btn github" aria-label="GitHub">
+            <svg class="social-icon" viewBox="0 0 496 512" height="1.5em">
+              <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8z"/>
+            </svg>
+            <span class="social-text">GitHub</span>
+          </button>
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Toggle Switch -->
+
+<div class="neo-toggle-container">
+  <input class="neo-toggle-input" id="neo-toggle" type="checkbox" />
+  <label class="neo-toggle" for="neo-toggle" aria-label="Alternar tema claro/escuro">
+    <div class="neo-track">
+      <div class="neo-background-layer"></div>
+      <div class="neo-grid-layer"></div>
+      <div class="neo-spectrum-analyzer">
+        <div class="neo-spectrum-bar"></div>
+        <div class="neo-spectrum-bar"></div>
+        <div class="neo-spectrum-bar"></div>
+        <div class="neo-spectrum-bar"></div>
+        <div class="neo-spectrum-bar"></div>
+      </div>
+      <div class="neo-track-highlight"></div>
+    </div>
+
+    <div class="neo-thumb">
+      <div class="neo-thumb-ring"></div>
+      <div class="neo-thumb-core">
+        <div class="neo-thumb-icon">
+          <div class="neo-thumb-wave"></div>
+          <div class="neo-thumb-pulse"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="neo-gesture-area"></div>
+    <div class="neo-status">
+      <div class="neo-status-indicator">
+        <div class="neo-status-dot"></div>
+        <div class="neo-status-text"></div>
+      </div>
+    </div>
+  </label>
+</div>
+
+<div class="cyber-dots" id="cyber-dots"></div>
+
+
+
+  <footer>
+    <p>&copy; 2025 Daniel Vieira. Colab com Rocketseat.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
